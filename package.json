@@ -1,0 +1,18 @@
+{
+  "name": "cyber-pos",
+  "version": "1.0.0",
+  "description": "Cyber POS - offline retail point of sale system",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "reset-db": "node scripts/reset-db.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.0.2"
+  }
+}
